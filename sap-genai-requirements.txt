@@ -1,0 +1,24 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+
+# For future LangChain integration (mentioned in README)
+# Uncomment these when implementing actual LangChain features
+# langchain>=0.1.0
+# langgraph>=0.0.20
+# langfuse>=2.0.0
+
+# For future SAP integration
+# pyrfc  # Requires SAP NW RFC SDK
+# requests>=2.31.0  # For REST API calls
+
+# For voice features (when implementing actual voice)
+# SpeechRecognition>=3.10.0
+# pyaudio>=0.2.11
+
+# For vector store (when implementing actual FAISS)
+# faiss-cpu>=1.7.4
+# sentence-transformers>=2.2.2
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variables

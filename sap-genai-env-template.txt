@@ -1,0 +1,24 @@
+# Copy this file to .env and fill in your actual values
+# NEVER commit the .env file to version control
+
+# SAP Configuration (for future implementation)
+SAP_HOST=your_sap_host_here
+SAP_CLIENT=000
+SAP_USER=your_username
+SAP_PASSWORD=your_password
+SAP_LANGUAGE=EN
+
+# AI/ML Configuration (for future implementation)
+OPENAI_API_KEY=your_openai_api_key
+LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
+LANGFUSE_SECRET_KEY=your_langfuse_secret_key
+LANGFUSE_HOST=https://cloud.langfuse.com
+
+# Application Configuration
+APP_ENV=development
+DEBUG=True
+LOG_LEVEL=INFO
+
+# Voice Configuration (for future implementation)
+SPEECH_RECOGNITION_API=google
+SPEECH_API_KEY=your_speech_api_key
